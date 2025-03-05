@@ -12,6 +12,7 @@ from langchain_google_genai import (
 from langchain.vectorstores import FAISS
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 
+
 # Configuration setup
 load_dotenv()
 google_api_key = os.environ.get("GOOGLE_API_KEY")
